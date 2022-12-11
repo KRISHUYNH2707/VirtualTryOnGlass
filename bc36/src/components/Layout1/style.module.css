@@ -1,0 +1,29 @@
+.model-img {
+    position: relative;
+}
+.virtual-glass {
+    position: absolute;
+    top: 205px;
+    width: 50%;
+    left: 120px;
+}
+
+.vglasses__card{
+    position: relative;
+    overflow: hidden;
+    background-color: white;
+}
+
+.vglasses__info{
+    position: absolute;
+    bottom:0;
+    left: 0;
+    background-color: rgba(0,0,0,0.7);
+    width: 100%;
+    color: white;
+    padding: 20px;
+}
+
+.infor__visible {
+    visibility: hidden;
+}
